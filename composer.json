@@ -1,16 +1,16 @@
 {
     "name": "hesammoosapour/create-database",
+    "description": "Create MySQL Database by PHP Shell",
     "type": "package",
-    "description": "Create MySQL Database using PHP Shell",
-    "keywords": ["Database", "MySQL","PHP","Shell"],
-    "license": "MIT",
     "require": {
         "php": "^8.0"
     },
-
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Hesam Moosapour",
+            "email": "contact@hesammoosapour.ir"
+        }
+    ],
+    "minimum-stability": "dev"
 }
