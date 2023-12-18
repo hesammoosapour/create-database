@@ -5,8 +5,8 @@
     "keywords": ["Database", "MySQL","PHP","Shell"],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
-    }
+        "php": "^8.0"
+    },
 
     "config": {
         "optimize-autoloader": true,
