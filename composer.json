@@ -12,5 +12,6 @@
             "email": "contact@hesammoosapour.ir"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
