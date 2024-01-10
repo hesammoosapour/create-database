@@ -2,9 +2,10 @@
 
 echo PHP_EOL;
 $db_name = readline('Enter name of the database that you want to create: ');
-
-//$result = execCmd("mysql -u root -p -e 'create database  $db_name collate utf8mb4_unicode_520_nopad_ci;'");
-$result = exec("C:/xampp/mysql/bin/mysql -u root  -e 'create database  $db_name collate utf8mb4_unicode_520_nopad_ci;'");
+//works on windows
+$result = system('mysql -u root -p -e "create database  '.$db_name.' collate utf8mb4_unicode_520_nopad_ci;"');
+// works on linux
+//$result = exec("C:/xampp/mysql/bin/mysql -u root  -e 'create database  $db_name collate utf8mb4_unicode_520_nopad_ci;'");
 //$result = shell_exec("C:/xampp/mysql/bin/mysql -u root -p -e 'create database  $db_name collate utf8mb4_unicode_520_nopad_ci;'");
 return var_dump($result);
 
